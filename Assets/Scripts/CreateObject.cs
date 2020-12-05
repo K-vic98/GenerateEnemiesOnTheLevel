@@ -7,8 +7,9 @@ public class CreateObject : MonoBehaviour
     [SerializeField] private GameObject _template;
     [SerializeField] private float _timeOfSpawn;
     [SerializeField] private List<Transform> _spawnPoints;
+
     private  float _elapsedTime;
-    void Update()
+    private void Update()
     {
         _elapsedTime += Time.deltaTime;
         if (_elapsedTime >= _timeOfSpawn)
