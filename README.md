@@ -1,4 +1,4 @@
-# GenerateEnemiesOnTheLevel
+# Generate enemies on the level
 I have several spawn points on the scene.
 Enemies spawn every 2 seconds alternately from different spawn points.
 ***
